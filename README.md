@@ -1,12 +1,16 @@
 # Scrapy-Crawling
 Sample Project to crawl a web page for pdf,excels and urls
+
+
 Steps to get started
+
 1. Install scrapy on windows(via pip) - pip install scrapy
    if pip is not installed install it first via https://pip.pypa.io/en/latest/installing/ .. 
    Download get-pip.py and install using python
-   
    python get-pip.py
+
 2. You might need to install few other packages including lxml , visual c++ .
+
 3. Once everything is setup you can either clone this repo or follow 
    http://doc.scrapy.org/en/latest/intro/tutorial.html
 
@@ -37,6 +41,7 @@ tutorial/
     )
     
 2.Go to root directory and run - scrapy crawl <test-name of the spider>
+
 3.You can use scrapy pipline to append tasks together similar to whats done in this project
   After crawling scrapy calls the tasks in the pipline which are downloading excels and pdfs
   set the pipline in scrapy settings 
